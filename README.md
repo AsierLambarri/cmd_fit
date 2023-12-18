@@ -9,7 +9,7 @@ The fit is performed by star counting, as suggested by Aparicio & Hidalgo (2009)
 ## The code
 Several functions are provided in the different .py files that can be combined in a simple python script to analyze a given CMD:
 
-[^1]: data_loader_iacSTAR.py contains a function to load IAC-Star data correctly
+[^1]: data_loader_iacSTAR.py 
 [^2]: bundles.py contains the function that returns the data in the desired region (RGB, AGB,...)
 [^3]: bin_determination.py contains a function that applies Freedman-Diaconis rule (Freedman & Diaconis 1981) to determine optimum bin number for a region/bundle.
 [^4]: chi_squared_models.py contains the Mighell 1999 merit function.
