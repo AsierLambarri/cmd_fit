@@ -1,5 +1,5 @@
 # cmd_fit
-Code generated for the 'Galaxy formation and Evolution' course at UCMs Astrophysics Master.
+Code generated for the 'Galaxy formation and Evolution' course at UCMs Astrophysics Master. Provides the tools for easy CMD analysis.
 
 ## The idea
 The characteristics of a CMD can be easily picked with a quick look: a long MS means ongoing star-formation, wide turning-points mean either long SFR periods or variations in the chemical composition, populated RGB and AGB branches mean moderate-age populations while BL stars are a rign of young populations, and RR Lyrae of old populations. For a more precise estimation of the Star Formation and Chemical Evolution of the target population, carefull analysis of the CMD is needed. Using IAC-Star (Aparicio & Gallart, 2004) synthetically generated CMDs (or any other synthetically generated CMDs), resolved stellar populations can be preciselly characterized by fitting the CMD of the whole stellar population to these synthetic CMDs.
