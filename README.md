@@ -7,6 +7,12 @@ The characteristics of a CMD can be easily picked with a quick look: a long MS m
 The fit is performed by star counting, as suggested by Aparicio & Hidalgo (2009); characteristic regions of the CMD can be selected _a la carte_ or the whole CMD can be selected at once. The second option is easier, but selecting _a la carte_ regions yields better results if low star density regions are avoided. For example, after visual inspection one might decide to select regions aroung the Main Sequence, Red Giant Branch, Asymptotic Gian Branch and Red Clump, which are the main characteristics of a CMD and contain (normally) most of the stars in it. Subdividing the regions into n x m bins gives greater accuracy. The quality of the fit is given by an appropriate merit function (Mighell 1999): the merit function is computed to be a weighted sum of the squares of the residuals of each bin, over all the regions (if no bins are created, the sum of the residuals is performed over the raw regions).
 
 ## The code
-Several functions are provided in the different .py files:
+Several functions are provided in the different .py files that can be combined in a simple python script to analyze a given CMD:
 
-*A
+[^1]: data_loader_iacSTAR.py contains a function to load IAC-Star data correctly
+[^2]: bundles.py contains the function that returns the data in the desired region (RGB, AGB,...)
+[^3]: bin_determination.py contains a function that applies Freedman-Diaconis rule (Freedman & Diaconis 1981) to determine optimum bin number for a region/bundle.
+[^4]: chi_squared_models.py contains the Mighell 1999 merit function.
+
+
+Notice that the aim is not to produce an automated program, but one that needs human input and benefits from it to obtain the best results possible: the number, placement and size of the regions to be selected is a purely human choice. Also, due to the fact that IAC-Star cannot be queried remotely, the synthetic CMDs need to be pre-downloaded.
