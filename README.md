@@ -31,13 +31,14 @@ This is the given a CMD:
 
 ![synthetic](https://github.com/AsierLambarri/cmd_fit/assets/109964584/192a3aaa-98d7-4c3b-9d64-b4507c06c1ee)
 
-This is the reconstructed SFR:
+This is the reconstructed SFR, by fixing SF length and constant metalicity:
 
 ![chi_SFR](https://github.com/AsierLambarri/cmd_fit/assets/109964584/f4dcdff8-e522-45bf-aa93-06ac23a72ddf)
 
 And these are the residuals of the fit:
 
-![residuals](https://github.com/AsierLambarri/cmd_fit/assets/109964584/91b9a726-4de8-40b6-8bdb-17513fdc5ad0)
+![residuals](https://github.com/AsierLambarri/cmd_fit/assets/109964584/4622e05e-44a2-4dc8-bb8e-bec467c6f93a)
+
 
 
 
