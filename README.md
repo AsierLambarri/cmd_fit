@@ -9,10 +9,21 @@ The fit is performed by star counting, as suggested by Aparicio & Hidalgo (2009)
 ## The code
 Several functions are provided in the different .py files that can be combined in a simple python script to analyze a given CMD:
 
-1.: data_loader_iacSTAR.py contains a function to load IAC-Star data correctly
-2.: bundles.py contains the function that returns the data in the desired region (RGB, AGB,...)
-3.: bin_determination.py contains a function that applies Freedman-Diaconis rule (Freedman & Diaconis 1981) to determine optimum bin number for a region/bundle.
-4.: chi_squared_models.py contains the Mighell 1999 merit function.
+**1.**: data_loader_iacSTAR.py contains a function to load IAC-Star data correctly.
+
+**2.**: bundles.py contains the function that returns the data in the desired region (RGB, AGB,...).
+
+**3.**: bin_determination.py contains a function that applies Freedman-Diaconis rule (Freedman & Diaconis 1981) to determine optimum bin number for a region/bundle.
+
+**4.**: chi_squared_models.py contains the Mighell 1999 merit function.
+
+The recomended usage is as follows: 1) load the CMD. 2) visually inspect the CMD and decide which regions you want to select and if you want meshing. 3) define the boundaries of the regions. There is no real benefit on constructing complicated shape regions so only square/rectangular regions can be created (and, after all, you can combine a bunch of these to make more arbitrary shapes). The regions must be defined by providing the x_range and y_range in a (2,2) array, i.e.: box_AGB = [[xmin,xmax],[ymin,ymax]]. 4) compute the chi_squared for a bunch of synthetic CMDs and determine best fit.
+
+Notice that the aim is not to produce an automated program, but one that needs human input and benefits from it to obtain the best results possible: the number, placement and size of the regions to be selected is a purely human choice, as well as whether to create a mesh inside each one of them or not. Also, due to the fact that IAC-Star cannot be queried remotely, the synthetic CMDs need to be pre-downloaded.
+
+The dependencies are: numpy, pandas and scipy.
 
 
-Notice that the aim is not to produce an automated program, but one that needs human input and benefits from it to obtain the best results possible: the number, placement and size of the regions to be selected is a purely human choice. Also, due to the fact that IAC-Star cannot be queried remotely, the synthetic CMDs need to be pre-downloaded.
+An example program is provided in a jupyter-notebook, whith which the following results have been obtained.
+
+## Some results
