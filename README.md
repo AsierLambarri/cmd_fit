@@ -24,6 +24,6 @@ Notice that the aim is not to produce an automated program, but one that needs h
 The dependencies are: numpy, pandas and scipy.
 
 
-An example program is provided in a jupyter-notebook, whith which the following results have been obtained.
+An example program is provided in a jupyter-notebook, with which the following results have been obtained.
 
 ## The Results
