@@ -23,7 +23,21 @@ Notice that the aim is not to produce an automated program, but one that needs h
 
 The dependencies are: numpy, pandas and scipy.
 
+## The Results
 
 An example program is provided in a jupyter-notebook, with which the following results have been obtained.
 
-## The Results
+This is the given a CMD:
+
+![synthetic](https://github.com/AsierLambarri/cmd_fit/assets/109964584/192a3aaa-98d7-4c3b-9d64-b4507c06c1ee)
+
+This is the reconstructed SFR:
+
+![chi_SFR](https://github.com/AsierLambarri/cmd_fit/assets/109964584/f4dcdff8-e522-45bf-aa93-06ac23a72ddf)
+
+And these are the residuals of the fit:
+
+![residuals](https://github.com/AsierLambarri/cmd_fit/assets/109964584/91b9a726-4de8-40b6-8bdb-17513fdc5ad0)
+
+
+
