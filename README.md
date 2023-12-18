@@ -9,7 +9,7 @@ The fit is performed by star counting, as suggested by Aparicio & Hidalgo (2009)
 ## The code
 Several functions are provided in the different .py files that can be combined in a simple python script to analyze a given CMD:
 
-- data_loader_iacSTAR.py contains a function to load IAC-Star data correctly.
+- data_loader_iacSTAR.py contains a function to load IAC-Star data using pandas.
 
 - bundles.py contains the function that returns the data in the desired region (RGB, AGB,...).
 
