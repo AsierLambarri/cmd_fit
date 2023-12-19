@@ -35,7 +35,7 @@ This is the reconstructed SFR, by fixing SF length and constant metalicity:
 
 ![chi_SFR](https://github.com/AsierLambarri/cmd_fit/assets/109964584/f4dcdff8-e522-45bf-aa93-06ac23a72ddf)
 
-And these are the residuals of the fit:
+And these are the residuals of the fit. It can be seen that the method is quite accurate for this particular example, yielding residuals of the order of ~1%:
 
 ![residuals](https://github.com/AsierLambarri/cmd_fit/assets/109964584/4622e05e-44a2-4dc8-bb8e-bec467c6f93a)
 
