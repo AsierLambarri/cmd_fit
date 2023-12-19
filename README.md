@@ -29,7 +29,7 @@ An example program is provided in a jupyter-notebook, with which the following r
 
 This is the given a CMD:
 
-![synthetic](https://github.com/AsierLambarri/cmd_fit/assets/109964584/192a3aaa-98d7-4c3b-9d64-b4507c06c1ee)
+![fig_anotada](https://github.com/AsierLambarri/cmd_fit/assets/109964584/d28fab97-e15b-4d77-be78-16e2e2edce08)
 
 This is the reconstructed SFR, by fixing SF length and constant metalicity:
 
